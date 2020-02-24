@@ -396,7 +396,7 @@
     });
 
     // mouse scrolling effect
-    $.scrollSpeed(200, 800);
+    // $.scrollSpeed(200, 800);
 
     /*---------------------
     // Ajax Contact Form
