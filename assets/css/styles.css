@@ -234,7 +234,7 @@ a#scrollUp:hover {
     padding: 5px 10px !important;
 }
 .mainmenu  ul li>ul a{
-    
+
 }
 .mainmenu ul li.active>a,
 .mainmenu ul li:hover>a {
@@ -897,6 +897,8 @@ a#scrollUp:hover {
 .service-wrap {
     margin-bottom: 30px;
 }
+
+
 .service-img {
     position: relative;
     overflow: hidden;
@@ -933,14 +935,24 @@ a#scrollUp:hover {
     padding: 30px 10px;
     background: #fff;
 }
+
+.service-content.anaze-service-content{
+  text-align: center;
+  padding: 0px;
+  background: transparent;
+}
+
 .service-content h4 {
     margin-bottom: 20px;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 16px;
 }
+
+
 .service-content p {
     margin-bottom: 25px;
+    font-size: 14px;
 }
 .service-content a {
     height: 35px;
@@ -952,6 +964,7 @@ a#scrollUp:hover {
     display: inline-block;
     background: #f25f4c;
     line-height: 35px;
+    color: #fff;
 }
 .service-content a:hover {
     background: #333132;
