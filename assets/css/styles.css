@@ -219,10 +219,22 @@ a#scrollUp:hover {
 .mainmenu ul li a {
     display: block;
     text-transform: uppercase;
-    padding: 5px 10px;
+    padding: 5px 3px;
     font-weight: 500;
-    /* color: #333132; */
     color: #fff;
+    font-size: 14px;
+}
+
+#navigation ul li a{
+     color: #333132;
+}
+
+.mainmenu  ul li>ul{
+    width: 230px !important;
+    padding: 5px 10px !important;
+}
+.mainmenu  ul li>ul a{
+    
 }
 .mainmenu ul li.active>a,
 .mainmenu ul li:hover>a {
@@ -256,7 +268,7 @@ a#scrollUp:hover {
     display: block;
 }
 .mainmenu ul li>ul li a {
-    text-transform: capitalize;
+    text-transform: inherit;
 }
 .mainmenu ul li>ul li:hover a {
     background: transparent;
@@ -267,8 +279,9 @@ a#scrollUp:hover {
     position: relative;
 }
 .search-wrapper ul li a {
-    padding: 52px 0px;
+    padding: 35px 0px;
     display: block;
+    color: white;
 }
 .search-wrapper ul li>ul {
     position: absolute;
@@ -345,7 +358,7 @@ a#scrollUp:hover {
 .responsive-menu-wrap .slicknav_menu {
     background: transparent none repeat scroll 0 0;
     font-size: 15px;
-    padding: 57px 0;
+    padding: 41px 0;
     position: absolute;
     right: 0px;
     top: 0;
@@ -358,7 +371,7 @@ a#scrollUp:hover {
     display: block;
     height: 2px;
     width: 25px;
-    background: #333132;
+    background: #fff;
 }
 .responsive-menu-wrap .slicknav_nav {
     background: #333132 none repeat scroll 0 0;
@@ -379,7 +392,7 @@ a#scrollUp:hover {
 .slicknav_nav a {
     color: #f1f1f1;
     text-decoration: none;
-    text-transform: capitalize;
+    text-transform: inherit;
 }
 .slicknav_nav a i {
     display: none
@@ -632,7 +645,8 @@ a#scrollUp:hover {
     width: 60px;
     line-height: 60px;
     text-align: center;
-    background: #fff;
+    /* background: #fff; */
+    color: #fff;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
@@ -680,8 +694,9 @@ a#scrollUp:hover {
 }
 .about-wrap h3 {
     font-weight: 500;
-    font-size: 24px;
+    font-size: 18px;
     margin-bottom: 25px;
+    line-height: 23px;
 }
 .about-wrap p {
     margin-bottom: 30px;
