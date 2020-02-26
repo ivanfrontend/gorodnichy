@@ -179,6 +179,44 @@
         centerMode: false,
         focusOnSelect: false
     });
+    // $('.partners_gr').slick({
+    //     slidesToShow: 4,
+    //     slidesToScroll: 1,
+    //     asNavFor: '.about-img-active',
+    //     dots: false,
+    //     arrows: false,
+    //     centerMode: false,
+    //     focusOnSelect: false
+    // });
+
+
+    $('.partners_gr').owlCarousel({
+        margin: 0,
+        loop: true,
+        autoplay: false,
+        autoplayTimeout: 4000,
+        nav: true,
+        smartSpeed: 800,
+        navText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>'],
+        URLhashListener: true,
+        startPosition: 'URLHash',
+        responsive: {
+            0: {
+                items: 1
+            },
+            450: {
+                items: 2
+            },
+            768: {
+                items: 2
+            },
+            1000: {
+                items: 4
+            }
+        }
+    });
+
+
 
     // brand-active
     $('.test-active').owlCarousel({

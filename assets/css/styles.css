@@ -2342,3 +2342,19 @@ a.readmore-btn:hover {
 .contact-area #googleMap{
     margin-top: 100px;
 }
+
+.partners_gr.owl-carousel .owl-item img{
+  width: 65%;
+  margin: 0 auto;
+}
+
+.partners_gr.owl-carousel .owl-prev{
+  position: absolute;
+  top: 50%;
+  left: 0px;
+}
+.partners_gr.owl-carousel .owl-next{
+  position: absolute;
+  top: 50%;
+  right: 0px;
+}
