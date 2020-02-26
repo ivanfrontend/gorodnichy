@@ -475,7 +475,7 @@
     .team-area,
     .blog-area,
     .footer-top {
-        padding: 100px 0px 70px;
+        padding: 30px 0px 70px;
     }
     .project-area .section-title {
         text-align: center;
@@ -621,6 +621,23 @@
     }
     .breadcumb-wrap ul li{
         font-size: 10px;
+    }
+
+    .contact-area.pt-120.pt-mobile-25{
+        padding-top: 25px;
+    }
+
+    .newsletter-area {
+        padding: 40px 0px;
+    }
+
+    .newsletter-wrap input {
+        height: 45px;
+    }
+
+    .newsletter-wrap button {
+        height: 45px;
+        line-height: 43px;
     }
 
 
