@@ -3,6 +3,17 @@
 
 /* Normal desktop :992px. */
 
+@media (max-width: 1030px){
+    .search-wrapper ul li a{
+        padding: 30px 0px;
+    }
+
+    .mainmenu{
+        padding: 25px 0px;
+    }
+} 
+
+
 @media (min-width: 992px) and (max-width: 1197px) {
     .slider-content h2 {
         font-size: 60px;
@@ -499,7 +510,7 @@
         position: static;
     }
     .logo {
-        margin: 15px 0px;
+        margin: 20px 0px;
     }
 
     .mainmenu {
@@ -507,10 +518,10 @@
     }
 
     .search-wrapper ul li a {
-        padding: 37px 0px;
+        padding: 20px 0px;
     }
     .responsive-menu-wrap .slicknav_menu {
-        padding: 42px 0px;
+        padding: 25px 0px;
     }
     .responsive-menu-wrap .slicknav_nav {
         top: 40px;
@@ -588,6 +599,12 @@
     .contact-form {
         margin-bottom: 50px;
     }
+
+    .header-area.bg-1{
+        height: 69px;
+    }
+
+
 }
 
 @media (min-width: 480px) and (max-width: 575px) {
