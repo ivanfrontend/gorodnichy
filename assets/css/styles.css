@@ -1246,10 +1246,11 @@ ul.slick-dots {
     margin-bottom: 30px;
 }
 .footer-logo img {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 .footer-logo p {
     margin-bottom: 20px;
+    font-size: 14px;
 }
 .footer-logo h4 {
     font-size: 16px;
@@ -1258,7 +1259,7 @@ ul.slick-dots {
 }
 .footer-logo span {
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 .footer-logo ul li {
     display: inline-block;
@@ -1269,7 +1270,7 @@ ul.slick-dots {
     font-size: 18px;
     text-transform: uppercase;
     padding-left: 30px;
-    margin: 30px 0px 50px;
+    margin: 10px 0px 20px;
     font-weight: 600;
     position: relative;
 }
@@ -1344,6 +1345,7 @@ ul.slick-dots {
     background: #f25f4c;
     cursor: pointer;
     border-radius: 3px;
+    color: white;
 }
 .newsletter button:hover {
     background: #323131;
@@ -1351,7 +1353,8 @@ ul.slick-dots {
 }
 .footer-bootem {
     padding: 20px 0px;
-    background: #f25f4c;
+    background: rgba(0, 0, 0, .8);
+    color: white;
     text-align: center;
 }
 /*--------footer-area end---------*/
@@ -1379,6 +1382,7 @@ a.readmore-btn {
     font-size: 14px;
     background: #f25f4c;
     font-weight: 700;
+    color: white;
 }
 a.readmore-btn:hover {
     background: #333132;
