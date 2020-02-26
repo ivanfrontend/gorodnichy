@@ -11,6 +11,18 @@
     .mainmenu{
         padding: 25px 0px;
     }
+
+    .breadcumb-wrap ul li{
+        font-size: 12px;
+    }
+} 
+
+
+@media (max-width: 770px){
+    .search-wrapper ul li a{
+        padding: 37px 0px;
+    }
+
 } 
 
 
@@ -604,6 +616,13 @@
         height: 69px;
     }
 
+    .breadcumb-wrap h2{
+        font-size: 20px;
+    }
+    .breadcumb-wrap ul li{
+        font-size: 10px;
+    }
+
 
 }
 
@@ -616,3 +635,14 @@
         width: 420px;
     }
 }
+
+@media (max-width: 320px){
+    .breadcumb-wrap h2 {
+        font-size: 17px;
+    }
+
+    .breadcumb-wrap ul li {
+        font-size: 8px;
+    }
+
+} 
