@@ -15,7 +15,7 @@
     .breadcumb-wrap ul li{
         font-size: 12px;
     }
-} 
+}
 
 
 @media (max-width: 770px){
@@ -23,7 +23,7 @@
         padding: 37px 0px;
     }
 
-} 
+}
 
 
 @media (min-width: 992px) and (max-width: 1197px) {
@@ -409,6 +409,11 @@
 
 /* small mobile :320px. */
 
+@media (max-width: 600px) {
+  .w-poupap_position{width: 90%;}
+  .w-poupap_coll_produkt .w-poupap_position .w-poupap_info{width: 100%;}
+}
+
 @media (max-width: 575px) {
     body {
         line-height: 24px;
@@ -662,4 +667,4 @@
         font-size: 8px;
     }
 
-} 
+}

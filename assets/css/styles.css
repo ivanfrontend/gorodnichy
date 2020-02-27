@@ -2451,3 +2451,94 @@ a.readmore-btn:hover {
 .yaMaps{
     margin-top: 50px;
 }
+
+/* .none_bg_hover:hover{
+  background-color: #000;
+} */
+.none_bg_hover:hover a{
+  background-color: transparent !important;
+  color: #f25f4c;
+}
+
+.w-poupap_coll_produkt{
+  position: fixed;
+  top: 0px;
+  z-index: 1000;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0,0,0,.8);
+  display: none;
+}
+
+.w-poupap_coll_produkt.active{display: block;}
+
+.w-poupap_coll_produkt .w-poupap_position{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.w-poupap_coll_produkt .w-poupap_position .w-poupap_info{
+  background: #fff;
+  padding: 20px;
+  width: 550px;
+}
+
+.w-poupap_coll_produkt .w-poupap_position .w-poupap_info .title{
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.w-poupap_coll_produkt .w-poupap_position .w-poupap_info .title_produkt{
+  margin-bottom: 10px;
+}
+
+.w-poupap_coll_produkt .w-poupap_position .w-poupap_info .w-form input{
+  width: 100%;
+  height: 45px;
+  margin-bottom: 25px;
+  border-radius: 3px;
+  background: transparent;
+  border: 1px solid #e5e5e5;
+  padding-left: 20px;
+}
+.w-poupap_coll_produkt .w-poupap_position .w-poupap_info .w-form textarea{
+  width: 100%;
+  height: 70px;
+  margin-bottom: 25px;
+  border-radius: 3px;
+  background: transparent;
+  border: 1px solid #e5e5e5;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.w-poupap_coll_produkt .w-poupap_position .w-poupap_info .w-form button{
+  padding: 8px 20px;
+  background: #f25f4c;
+  transition: .3s;
+  /* color: #363636; */
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  color: white !important;
+}
+
+.w-poupap_coll_produkt .w-poupap_position .w-poupap_info .w-form button:hover{
+  transition: .3s;
+  background: #363636;
+}
+
+.w-poupap_coll_produkt .w-poupap_position .w-poupap_info .сlose{
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+
+body.ovHidBody{overflow: hidden !important;}

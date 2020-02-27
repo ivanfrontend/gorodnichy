@@ -482,4 +482,43 @@
         return false;
     });
 
+    var statePoupapCollProduct = {
+      state: false,
+      productName: null,
+      showPoupap(bool = false ,text = ''){
+        console.log(statePoupapCollProduct.state);
+        this.state = bool;
+        this.productName = text;
+        if(statePoupapCollProduct.state){
+          $('body').addClass('ovHidBody');
+          $('.w-poupap_coll_produkt').addClass('active');
+          $('.w-poupap_coll_produkt .title_produkt span').text(text);
+        }else {
+          $('body').removeClass('ovHidBody');
+          $('.w-poupap_coll_produkt').removeClass('active');
+        }
+      }
+    };
+
+
+
+    $('.w-coll_my .coll_my').on('click', function() {
+      var text = $(this).parents('.service-wrap').find('.service-content').find('h4').text();
+      statePoupapCollProduct.showPoupap(true ,text);
+    })
+    $('.w-poupap_coll_produkt .сlose').on('click', function() {
+      var text = $(this).parents('.service-wrap').find('.service-content').find('h4').text();
+      statePoupapCollProduct.showPoupap(false);
+    })
+
+    jQuery(function($){
+  	$(document).mouseup(function (e){ // событие клика по веб-документу
+  		var div = $(".w-poupap_info"); // тут указываем ID элемента
+  		if (!div.is(e.target) // если клик был не по нашему блоку
+  		    && div.has(e.target).length === 0) { // и не по его дочерним элементам
+            statePoupapCollProduct.showPoupap(false);
+  		}
+  	});
+  });
+
 })(jQuery);
