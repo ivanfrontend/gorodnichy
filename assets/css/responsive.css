@@ -645,6 +645,9 @@
         line-height: 43px;
     }
 
+    .blog-content.blog-content_to h4{
+      min-height: auto;
+    }
 
 }
 

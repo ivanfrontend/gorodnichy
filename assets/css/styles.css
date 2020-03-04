@@ -167,6 +167,7 @@ div {
 .header-area.bg-1 {
     /* background: #f1f1f1; */
     background: rgba(0, 0, 0, 1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 .bg-1{background: #f1f1f1;}
 .bg-fff {
@@ -1265,6 +1266,10 @@ ul.slick-dots {
     border-bottom: 1px solid #f25f4c;
     padding-bottom: 10px;
     margin: 10px 0px 20px;
+
+}
+.blog-content.blog-content_to h4{
+  min-height: 67px;
 }
 .blog-content p {
     color: #333132;
@@ -2310,6 +2315,84 @@ a.readmore-btn:hover {
     margin: 40px 0;
     border-left: 10px solid #f25f4c;
 }
+
+.w-reviews .about-page-area blockquote{
+  margin: 0px 0px 40px 0px;
+}
+
+.di-flx{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.di-flx .w-review-item{
+  width: 49%;
+  background: #f1f1f1;
+  padding: 30px 25px 30px 40px;
+  font-size: 16px;
+  font-style: italic;
+  border-left: 10px solid #f25f4c;
+  margin-bottom: 20px;
+}
+
+.w-review-item.p-rigth{
+  padding-right: 6px;
+}
+.w-review-item.p-left{
+  padding-left: 6px;
+}
+
+.w-review-item .review-item{
+  overflow: hidden;
+  /* height: 80px; */
+}
+
+.append_btn .btn-all-review{
+  margin-top: 10px;
+  font-style: normal;
+  display: inline-block;
+  /* border-bottom: 1px solid #333132; */
+  font-weight: 700;
+  cursor: pointer;
+  transition: .4s;
+}
+.append_btn .btn-all-review:hover{
+  /* border-bottom: 1px solid #f25f4c; */
+  color: #f25f4c;
+  transition: .4s;
+}
+
+.w-icons-review i{
+  margin-right: 5px;
+}
+
+.contact-form .title_form_review{
+    margin: 60px 0px 40px 0px;
+    font-size: 24px;
+    color: #333132;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.contact-form .title_form_review::before{
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  width: 40%;
+  height: 3px;
+  background-color: #f25f4c;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.p-lr{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.contact-textarea{outline: none;}
 
 
 .socila-link {

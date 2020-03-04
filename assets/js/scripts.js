@@ -141,6 +141,22 @@
         }
     }
 
+
+    function add_reviews_btn() {
+      $('.w-reviews .w-review-item').each(function(i,elem) {
+        var height_block = $(elem).find('.review-item').height();
+        console.log(height_block);
+        if(height_block > 80){
+          $(elem).find('.append_btn').append('<div class="btn-all-review">Посмотреть полный отзыв</div>');
+          console.log('true');
+        }
+        $(elem).find('.review-item').css({'height': '80px'});
+      });
+      var height_block = $('.w-reviews .w-review-item .review-item').height();
+
+    };
+    add_reviews_btn();
+
     // test-active
     $('.test-img-active ').slick({
         slidesToShow: 1,
